@@ -1,0 +1,317 @@
+		* {
+			box-sizing: border-box;
+		}
+		
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		header {
+			background-color: #77A5D5;
+			padding: 10px;
+			padding-bottom: 5px;
+			font-size: 40px;
+			color: white;
+			height: auto;
+			text-align: center;
+			overflow: visible;
+		}
+		
+		.logo{
+			float: left;
+			margin-left: 20%;
+			margin-right: -25%;
+			margin-top: 2%;
+		}
+
+		nav {
+			width: 100%;
+			margin: 0 px;
+			background: #77A5D5;
+			padding: 0px;
+			font-size: 18px;
+			display: inline-block;
+			text-align: center;
+			margin-top: -30px;
+		}
+
+		nav > ul {
+			list-style-type: none;
+			margin-top: -50px;
+			padding: 0;
+			overflow: hidden;
+			display: inline-block;
+			text-align: center;
+		}
+
+		nav > ul > li {
+			float: left;
+			border-right: 1px solid #155699;
+		}
+		
+		nav > ul > li:last-child {
+			border-right: none;
+		}
+		
+		nav > ul > li > a {
+			display: block;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			text-decoration: none;
+		}
+		
+		.dropdown:hover > ul{
+			display: inline-block;
+			position: absolute;
+		}
+
+		.dropdown > ul > li{
+			list-style-type: none;
+			background-color: #F3EFF0;
+			padding: 10px;
+		}
+		
+		.dropdown ul {
+			margin-left: -20px;
+			margin-top: 5px;
+			display: none;
+			position: absolute;
+		}
+		
+		.dropdown a {
+			text-decoration: none;
+			float: none;
+		}
+		
+		nav a:visited {
+			color: #155699;
+		}
+		
+		nav a:link {
+			color: #155699;
+		}
+		
+		nav a:hover {
+			background: white;
+		}
+		
+		@media (max-width: 1200px) {
+			nav{
+				width: 100%;
+			}
+			
+			.logo{
+				display: none;
+			}
+		}
+		
+		.button a{
+			text-decoration: none;
+		}
+		
+		.button a:visited{
+			color: #155699;
+		}
+		
+		.button a:link{
+			color: #155699;
+		}
+		
+		.button a:hover{
+			background-color: white;
+		}
+		
+		.button{
+			background-color: #77A5D5;
+			border: none;
+			width: 32%;
+			padding: 15px 32px;
+			text-align: center;
+			display: inline-block;
+			border-style: none;
+			position: relative;
+		}
+
+		.button h2{
+			color: #155699;
+			font-size: 22px;
+		}
+		
+		
+		/* start editing here */
+	
+		.overview h2{
+			font-size: 55px;
+			text-shadow: 3px 2px yellow;
+			padding-top: -5px;
+			margin-bottom: -20px;
+			margin-left: -40px;
+			margin-top: -20px;
+		}
+		
+		.overview{
+			width: 60%;
+			height: 250px;
+			background-color: white;
+			margin-left: 2%;
+			display: inline-block;
+			position: relative;
+			text-overflow: visible;
+			padding: 20px;
+			color: black;
+			text-indent: 20px;
+			z-index: -1;
+		}
+		
+		.collage{
+			width: 32%;
+			margin: 2%;
+			display: inline-block;
+			position: relative;
+			vertical-align: top;
+		}
+		
+		h3{
+			color: #155699;
+			font-size: 40px;
+			margin-left: 2%;
+			margin-top: -5px;
+			margin-bottom: -10px;
+			display: inline-block;
+		}
+		
+		.student p{
+			text-indent: 52px;
+			font-size: 18px;
+			
+		}
+		
+		.teacher p{
+			text-indent: 52px;
+			font-size: 18px;
+		}
+		
+		.voice p{
+			text-indent: 52px;
+			font-size: 18px;
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		
+		h4{
+			color: black;
+			font-size: 22px;
+			margin-bottom: -2%;
+			margin-left: 2%;
+			margin-top: -5px;
+			display: inline-block;
+		}
+		
+		.odd{
+			width: 29%;
+			height: 30%;
+			background-color: white;
+			margin-left: 3%;
+			font-size: 8px;
+			display: inline-block;
+			position: relative;
+			padding: 12px;
+			color: #155699;
+			text-indent: 20px;
+			vertical-align: top;
+		}
+		
+		.odd p{
+			font-size: 15px;
+		}
+		
+		.even{
+			width: 29%;
+			height: 30%;
+			background-color: #77A5D5;
+			margin-left: 3%;
+			font-size: 8px;
+			display: inline-block;
+			position: relative;
+			padding: 12px;
+			color: #155699;
+			text-indent: 20px;
+			vertical-align: top;
+		}
+		
+		.even p{
+			font-size: 15px;
+		}
+		
+		.pic{
+			width: 29%;
+			height: auto;
+			margin-left: 3%;
+			padding: 10px 10px 30px 10px;
+			background-color: white;
+			box-shadow: 0 4px 8px 0 #77A5D5;
+			margin-bottom: 25px;
+			position: relative;
+			display: inline-block;
+		}
+		
+		.questions h5{
+			font-size: 20px;
+			color: #155699;
+			margin-left: 2%;
+			margin-right: -2%;
+			display: inline-block;
+		}
+		
+		.questions h3{
+			font-size: 20px;
+			color: black;
+			margin-left: 2%;
+			display: inline-block;
+		}
+		
+		.questions{
+			width: 90%;
+			height: auto;
+			background-color: #77A5D5;
+			margin-left: 5%;
+			font-size: 8px;
+			display: inline-block;
+			position: relative;
+			padding: 12px;
+			padding-left: 25px;
+			padding-right: 20px;
+		}
+		
+		.questions p{
+			font-size: 18px;
+			text-indent: 55px;
+			margin-top: -20px;
+		}
+		
+		.media{
+			width: 57%;
+			margin-left: 23%;
+			padding: 20px 20px 35px 20px;
+			background-color: white;
+			box-shadow: 0 4px 8px 0 #77A5D5;
+			margin-bottom: 25px;
+			position: relative;
+			display: inline-block;
+		}
+		
+		.videoWrapper {
+			position: relative;
+			padding-bottom: 56.25%; 
+			padding-top: 25px;
+			height: 0;
+		}
+		.videoWrapper iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+		

@@ -1,0 +1,240 @@
+		* {
+			box-sizing: border-box;
+		}
+		
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		header {
+			background-color: #77A5D5;
+			padding: 10px;
+			padding-bottom: 5px;
+			font-size: 40px;
+			color: white;
+			height: auto;
+			text-align: center;
+			overflow: visible;
+		}
+		
+		.logo{
+			float: left;
+			margin-left: 20%;
+			margin-right: -25%;
+			margin-top: 2%;
+		}
+
+		nav {
+			width: 100%;
+			margin: 0 px;
+			background: #77A5D5;
+			padding: 0px;
+			font-size: 18px;
+			display: inline-block;
+			text-align: center;
+			margin-top: -30px;
+		}
+
+		nav > ul {
+			list-style-type: none;
+			margin-top: -50px;
+			padding: 0;
+			overflow: hidden;
+			display: inline-block;
+			text-align: center;
+		}
+
+		nav > ul > li {
+			float: left;
+			border-right: 1px solid #155699;
+		}
+		
+		nav > ul > li:last-child {
+			border-right: none;
+		}
+		
+		nav > ul > li > a {
+			display: block;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			text-decoration: none;
+		}
+		
+		.dropdown:hover > ul{
+			display: inline-block;
+			position: absolute;
+		}
+
+		.dropdown > ul > li{
+			list-style-type: none;
+			background-color: #F3EFF0;
+			padding: 10px;
+		}
+		
+		.dropdown ul {
+			margin-left: -20px;
+			margin-top: 5px;
+			display: none;
+			position: absolute;
+		}
+		
+		.dropdown a {
+			text-decoration: none;
+			float: none;
+		}
+		
+		nav a:visited {
+			color: #155699;
+		}
+		
+		nav a:link {
+			color: #155699;
+		}
+		
+		nav a:hover {
+			background: white;
+		}
+		
+		@media (max-width: 1200px) {
+			nav{
+				width: 100%;
+			}
+			
+			.logo{
+				display: none;
+			}
+		}
+		
+		.button a{
+			text-decoration: none;
+		}
+		
+		.button a:visited{
+			color: #155699;
+		}
+		
+		.button a:link{
+			color: #155699;
+		}
+		
+		.button a:hover{
+			background-color: white;
+		}
+		
+		.button{
+			background-color: #77A5D5;
+			border: none;
+			width: 33%;
+			padding: 15px 32px;
+			text-align: center;
+			display: inline-block;
+			border-style: none;
+			position: relative;
+		}
+
+		.button h2{
+			color: #155699;
+			font-size: 22px;
+		}
+		
+		/* start editing here */
+		
+		h3{
+			color: #155699;
+			font-size: 40px;
+			margin-left: 2%;
+			margin-right: 2%;
+			display: inline-block;
+		}
+		
+		p {
+			font-size: 18px;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: -3%;
+		}
+		
+		fieldset {
+			width: 80%;
+			margin-right: auto;
+			margin-left: auto;
+			border: 2px solid #155699;
+		}
+		
+		legend {
+			font-size: 24px;
+			color: #155699;
+			font-weight: bold;
+		}
+		
+		label{
+			font-size: 16px;
+			color: black;
+		}
+		
+		input[type=text]{
+			margin-left: 2%;
+			background-color: #C2DFFF;
+			margin-top: 1%;
+			font-size: 14px;
+		}
+		
+		input:focus[type=text]{
+			border-style: solid;
+			border-color: #155699; 
+		}
+		
+		input[type=radio]{
+			margin-left: 2%;
+		}
+		
+		select{
+			margin-left: 2%;
+		}
+		
+		input[type=submit]{
+			padding:18px 26px; 
+			background: white; 
+			border: 2px solid #155699;
+			cursor:pointer;
+			
+			color: #155699;
+			font-size: 28px;
+			font-weight: bold;
+		}
+		
+		input:hover[type=submit]{
+			padding:18px 26px; 
+			background: #77A5D5; 
+			border:0 none;
+			cursor:pointer;
+			
+			color: #155699;
+			font-size: 28px;
+			font-weight: bold;
+		}
+		
+		.reset:hover{
+			padding:18px 26px; 
+			background: #77A5D5;
+			width: 13%;
+			border:0 none;
+			cursor:pointer;
+			
+			color: #155699;
+			font-size: 28px;
+			font-weight: bold;
+		}
+		
+		.reset{
+			padding:18px 26px; 
+			width: 13%;
+			background: white; 
+			border: 2px solid #155699;
+			cursor:pointer;
+			
+			color: #155699;
+			font-size: 28px;
+			font-weight: bold;
+		}

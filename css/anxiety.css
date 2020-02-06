@@ -1,0 +1,317 @@
+		* {
+			box-sizing: border-box;
+		}
+		
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		header {
+			background-color: #77A5D5;
+			padding: 10px;
+			padding-bottom: 5px;
+			font-size: 40px;
+			color: white;
+			height: auto;
+			text-align: center;
+			overflow: visible;
+		}
+		
+		.logo{
+			float: left;
+			margin-left: 20%;
+			margin-right: -25%;
+			margin-top: 2%;
+		}
+
+		nav {
+			width: 100%;
+			margin: 0 px;
+			background: #77A5D5;
+			padding: 0px;
+			font-size: 18px;
+			display: inline-block;
+			text-align: center;
+			margin-top: -30px;
+		}
+
+		nav > ul {
+			list-style-type: none;
+			margin-top: -50px;
+			padding: 0;
+			overflow: hidden;
+			display: inline-block;
+			text-align: center;
+		}
+
+		nav > ul > li {
+			float: left;
+			border-right: 1px solid #155699;
+		}
+		
+		nav > ul > li:last-child {
+			border-right: none;
+		}
+		
+		nav > ul > li > a {
+			display: block;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			text-decoration: none;
+		}
+		
+		.dropdown:hover > ul{
+			display: inline-block;
+			position: absolute;
+		}
+
+		.dropdown > ul > li{
+			list-style-type: none;
+			background-color: #F3EFF0;
+			padding: 10px;
+		}
+		
+		.dropdown ul {
+			margin-left: -20px;
+			margin-top: 5px;
+			display: none;
+			position: absolute;
+		}
+		
+		.dropdown a {
+			text-decoration: none;
+			float: none;
+		}
+		
+		nav a:visited {
+			color: #155699;
+		}
+		
+		nav a:link {
+			color: #155699;
+		}
+		
+		nav a:hover {
+			background: white;
+		}
+		
+		@media (max-width: 1200px) {
+			nav{
+				width: 100%;
+			}
+			
+			.logo{
+				display: none;
+			}
+		}
+		
+		.button a{
+			text-decoration: none;
+		}
+		
+		.button a:visited{
+			color: #155699;
+		}
+		
+		.button a:link{
+			color: #155699;
+		}
+		
+		.button a:hover{
+			background-color: white;
+		}
+		
+		.button{
+			background-color: #77A5D5;
+			border: none;
+			width: 49.5%;
+			padding: 15px 32px;
+			text-align: center;
+			display: inline-block;
+			border-style: none;
+			position: relative;
+		}
+
+		.button h2{
+			color: #155699;
+			font-size: 22px;
+		}
+		
+		/* start editing here */
+		
+		div p {
+			text-indent: 50px;
+		}
+		
+		.graphic {
+			width: 97%;
+			background-color: #77a5d5;
+			position: relative;
+			display: inline-block;
+			height: auto;
+			z-index: -1;
+		}
+		
+		h2.anx,h3{
+			width: 97%;
+			background-color: #77a5d5;
+			padding: 5px;
+			color: #155699;
+			text-align: center;
+			font-size: 30px;
+		}
+		
+		h3.tablenami {
+			width: 29%;
+			height: 29%;
+			padding: 10px;
+			background-color: #77a5d5;
+			color: #155699;
+			position: relative;
+			vertical-align: top;
+			margin-left: 3%;
+			display: inline-block;
+			padding: 10px;
+			text-indent: 20px;
+			font-size: 19px;
+			text-align: justify;
+		}
+		
+		.intro {
+			width: 500px;
+			background-color: #77A5D5;
+			text-align: justify;
+			padding: 15px;
+			color: #155699;
+		}
+		
+		
+		.table {
+			border: 2px solid;
+			border-color: #155699;
+			background-color:#77a5d5;
+			border-collapse: collapse;
+			color: #155699;
+			text-align: center;
+			width: 60%;
+			height: auto;
+			margin-left: 3%;
+			padding: 10px 10px 30px 10px;
+			margin-bottom: 25px;
+			position: relative;
+			display: inline-block;
+		}
+		
+		caption {
+			font-size: 30px;
+			font-weight: 3px;
+		}
+		
+		th {
+			background-color: #EAECF0;
+			border: 2px solid #155699;
+			padding: 5px;
+			font-size: 25px;
+		}
+
+		th:hover {
+			background-color: #bdc4d0;
+			transition-duration: 1s;
+		}
+		
+		td {
+			background-color: #D8F2DE;
+			border: 2px solid #155699;
+			padding: 10px;
+		}
+		
+		td:hover {
+			background-color: #9fdfad;
+			transition-duration: 1s;
+		}
+		
+		div.odd,div.nami {
+			width: 29%;
+			height: 29%;
+			padding: 10px;
+			background-color: #77a5d5;
+			color: #155699;
+			position: relative;
+			vertical-align: top;
+			margin-left: 3%;
+			display: inline-block;
+			text-indent: 20px;
+			font-size: 19px;
+			text-align: justify;
+		}
+		
+		div.odd h4 {
+			font-size: 22px;
+			text-indent: 0px;
+			padding: 0px;
+		}
+		
+		div.even,div.adaa,div.webmd, div.ref {
+			width: 29%;
+			position: relative;
+			padding: 10px;
+			background-color: white;
+			color: #155699;
+			border-color:  #77a5d5;
+			border-style: solid;
+			border-width:  3px;
+			height: 29%;
+			margin-left: 3%;
+			display: inline-block;
+			padding: 12px;
+			text-indent: 20px;
+			vertical-align: top;
+			font-size: 20px;
+			text-align: justify;
+		}
+		
+		div.even h4 {
+			font-size: 22px;
+			text-indent: 0px;
+			padding: 0px;
+		}
+		
+		div.pic {
+			width: 29%;
+			height: 29%;
+			margin-left: 3%;
+			padding: 10px 10px 30px 10px;
+			background-color: #77A5D5;
+			margin-bottom: 25px;
+			position: relative;
+			display: inline-block;
+		}
+		
+		div.picO {
+			box-shadow: 0 4px 8px 0 #77A5D5;
+			width: 29%;
+			height: 29&;
+			margin-left: 3%;
+			padding: 10px 10px 30px 10px;
+			background-color: white;
+			margin-bottom: 25px;
+			position: relative;
+			display: inline-block;
+		}	
+		
+		.button{
+			background-color: #77A5D5;
+			border: none;
+			width: 49.5%;
+			padding: 15px 32px;
+			text-align: center;
+			display: inline-block;
+			border-style: none;
+			position: relative;
+		}
+
+		.button h2{
+			color: #155699;
+			font-size: 22px;
+		}

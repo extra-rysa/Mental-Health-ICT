@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>3Q CS Project</title>
+	<meta name="description" content="Mental Health & ICT" />
+	<meta name="keywords" content="mental, health, ICT" />
+	<meta name="author" content="Rysa Antonette Ang, Gabriel Matthew Zara" />
+	<meta name="revised" content="Rysa Antonette Ang, 4/2/2020" />
+	<link rel="icon" href="../images/favicon.ico">
+	
+	<!-- to define the character set used -->
+	<meta charset="UTF-8" />
+	
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="../css/form.css">
+
+	<!-- external js -->
+	<script src="../js/script.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157736734-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-157736734-1');
+	</script>
+	
+	</head>
+	<body>
+		<header id="top">
+			<img class="logo" src="../images/logo.png" alt="Site Logo" style="width:100px;height:100px">
+			<h2>Mental Health & ICT</h2>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="../index.html">Home Page</a></li>
+				<li class="dropdown"><a href=mental.html onmouseover="this.focus()">Mental Health</a>
+					<ul>
+						<li><a href="anxiety.html">Anxiety Disorders</a></li>
+						<li><a href="mood.html">Mood Disorders</a></li>
+						<li><a href="schizophrenic.html">Schizophrenic Disorders</a></li>
+						<li><a href="eating.html">Eating Disorders</a></li>
+					</ul>
+				<li><a href=ict.html>ICT x MH</a></li>	
+				<li><a href="https://forms.gle/UD12aHNTfs4MTn1k9" target="_blank">Website Voting</a></li>
+			</ul>
+		</nav>
+	
+		<h3>Let Your Voice Be Heard!</h3>
+		<p>Please fill in the necessary details needed for your voice to be heard! You may also choose not to answer all the questions.
+		All your answers will also be kept confidential, especially if you want to remain Anonymous. Posted answers, such as those
+		seen in the previous page are posted with consent. We will NOT post your answers here, unless you state otherwise. :)</p>
+	
+	<form name="form" method="post">	
+		<fieldset>
+			<legend>Personal Details</legend>
+			<label> Name: <i>(Please type in "Anonymous" if you don't want to use your actual name.)</i><br>
+				<input style="width:40%" type="text" name="name" autocomplete="off" required />
+			</label>
+			<br><br>
+			<label>Age: 
+				<input type="number" name="age" min="0" required />
+			</label>
+			<br><br>
+			<label> PSHS-Campus: </label>
+				<select name="campus" required>
+					<option value="" disabled selected>Select your option</option>
+					<option value="Main">Main Campus</option>
+					<option value="CARC">Cordillera Administrative Region Campus</option>
+					<option value="IRC">Ilocos Region Campus</option>
+					<option value="CVC">Cagayan Valley Campus</option>
+					<option value="CLC">Central Luzon Campus</option>
+					<option value="CALABARZON">CALABARZON Region Campus</option>
+					<option value="MIMAROPA">MIMAROPA Region Campus</option>
+					<option value="BRC">Bicol Region Campus</option>
+					<option value="WVC">Western Visayas Campus</option>
+					<option value="CVisC">Central Visayas Campus</option>
+					<option value="EVC">Eastern Visayas Campus</option>
+					<option value="ZRC">Zamboanga Peninsula Campus</option>
+					<option value="CMC">Central Mindanao Campus</option>
+					<option value="SMC">Southern Mindanao Campus</option>
+					<option value="SRC">SOCCSKSARGEN Region Campus</option>
+					<option value="CRC">Caraga Region Campus</option>
+				</select>
+			<br><br>
+			<label> Batch: <br>
+				<input type="radio" name="Batch" value="2025" required> 2025 <br>
+				<input type="radio" name="Batch" value="2024"> 2024 <br>
+				<input type="radio" name="Batch" value="2023"> 2023 <br>
+				<input type="radio" name="Batch" value="2022"> 2022 <br>
+				<input type="radio" name="Batch" value="2021"> 2021 <br>
+				<input type="radio" name="Batch" value="2020"> 2020 <br>
+				<input type="radio" name="Batch" value="Alumni"> Alumnus <br>
+			</label>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Question #1</legend> 
+			<label>Do you think that the issue of Mental Health is relevant in Pisay? <br>
+				<input type="radio" name="Q1A" value="yes"/> Yes <br>
+				<input type="radio" name="Q1A" value="no"/> No <br><br>
+			<label>
+			
+			<label> How so? <br>
+				<input style="width:80%" type="text" name="Q1B" autocomplete="off" />
+			</label>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Question #2</legend> 
+			<label>Have you ever had a mental breakdown? <br>
+				<input type="radio" name="Q2A" value="yes" /> Yes <br>
+				<input type="radio" name="Q2A" value="no"/> No <br><br>
+			</label>
+			
+			<label> How did you cope with it? <br>
+				<input style="width:80%" type="text" name="Q2B" autocomplete="off"  />
+			</label>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Question #3</legend> 
+			<label>Do you think Pisay has done a good job in practicing activities that promote mental health? <br>
+				<input type="radio" name="Q3A" value="yes" /> Yes <br>
+				<input type="radio" name="Q3A" value="no"/> No <br><br>
+			</label>
+			
+			<label> Expound. <br>
+				<input style="width:80%" type="text" name="Q3B" autocomplete="off"  />
+			</label>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Question #4</legend> 
+			<label>Do you think Mental Health is a relevant and a topical issue for your age group? <br>
+				<input type="radio" name="Q4A" value="yes" /> Yes <br>
+				<input type="radio" name="Q4A" value="no"/> No <br><br>
+			</label>
+			
+			<label> Why? <br>
+				<input style="width:80%" type="text" name="Q4B" autocomplete="off"  />
+			</label>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Question #5</legend> 
+			<label>How can people help when they encounter problems likewise (having a mental breakdown, 
+		knowing someone having a mental issue, etc.)? <br>
+				<input style="width:80%" type="text" name="Q5" autocomplete="off" />
+			</label>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Question #6</legend> 
+			<label>Do you know any tech-related solutions that have been done or are currently in progress 
+			in order to solve these problems?<br>
+				<input type="radio" name="Q6" value="yes" /> Yes <br>
+				<input type="radio" name="Q6" value="no"/> No <br><br>
+			</label>
+			
+			<label>If yes, what are they? If no, <i>type in "N/A"</i> <br>
+				<input style="width:80%" type="text" name="Q6" autocomplete="off"  />
+			</label>
+		</fieldset>
+		<br>
+		
+		<center>
+		<input type="submit" value="Submit Answers"
+			onclick= "return confirm('Are you sure you want to submit?')"/>
+			
+		<input class="reset" value="Clear All" 
+			onclick= "cancel()">
+		</center>
+	</form>	
+	<br><br>
+		<div class = "button">
+			<h2><a href = "#top"> Go to Top </a></h2>
+		</div>
+		
+		<div class = "button">
+			<h2><a href="https://forms.gle/UD12aHNTfs4MTn1k9" target="_blank">Vote for our website here! :)</a></h2>
+		</div>
+		
+		<div class = "button">
+			<h2><a href="pshs.html">Go Back to PSHS x MH Page</a></h2>
+		</div>
+	</body>

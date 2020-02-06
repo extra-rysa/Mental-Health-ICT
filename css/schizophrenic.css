@@ -1,0 +1,431 @@
+		* {
+			box-sizing: border-box;
+		}
+		
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		header {
+			background-color: #77A5D5;
+			padding: 10px;
+			padding-bottom: 5px;
+			font-size: 40px;
+			color: white;
+			height: auto;
+			text-align: center;
+			overflow: visible;
+		}
+		
+		.logo{
+			float: left;
+			margin-left: 20%;
+			margin-right: -25%;
+			margin-top: 2%;
+		}
+
+		nav {
+			width: 100%;
+			margin: 0 px;
+			background: #77A5D5;
+			padding: 0px;
+			font-size: 18px;
+			display: inline-block;
+			text-align: center;
+			margin-top: -30px;
+		}
+
+		nav > ul {
+			list-style-type: none;
+			margin-top: -50px;
+			padding: 0;
+			overflow: hidden;
+			display: inline-block;
+			text-align: center;
+		}
+
+		nav > ul > li {
+			float: left;
+			border-right: 1px solid #155699;
+		}
+		
+		nav > ul > li:last-child {
+			border-right: none;
+		}
+		
+		nav > ul > li > a {
+			display: block;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			text-decoration: none;
+		}
+		
+		.dropdown:hover > ul{
+			display: inline-block;
+			position: absolute;
+		}
+
+		.dropdown > ul > li{
+			list-style-type: none;
+			background-color: #F3EFF0;
+			padding: 10px;
+		}
+		
+		.dropdown ul {
+			margin-left: -20px;
+			margin-top: 5px;
+			display: none;
+			position: absolute;
+		}
+		
+		.dropdown a {
+			text-decoration: none;
+			float: none;
+		}
+		
+		nav a:visited {
+			color: #155699;
+		}
+		
+		nav a:link {
+			color: #155699;
+		}
+		
+		nav a:hover {
+			background: white;
+		}
+		
+		@media (max-width: 1200px) {
+			nav{
+				width: 100%;
+			}
+			
+			.logo{
+				display: none;
+			}
+		}
+		
+		.button a{
+			text-decoration: none;
+		}
+		
+		.button a:visited{
+			color: #155699;
+		}
+		
+		.button a:link{
+			color: #155699;
+		}
+		
+		.button a:hover{
+			background-color: white;
+		}
+		
+		.button{
+			background-color: #77A5D5;
+			border: none;
+			width: 49.5%;
+			padding: 15px 32px;
+			text-align: center;
+			display: inline-block;
+			border-style: none;
+			position: relative;
+		}
+
+		.button h2{
+			color: #155699;
+			font-size: 22px;
+		}
+		
+		/* start editing here */
+		
+		div.graphic {
+			width: 97%;
+			background-color: #77a5d5;
+			position: relative;
+			display: inline-block;
+			height: auto;
+			z-index: -1;
+		}
+		
+		div.schiz {
+			width: 96%;
+			height: auto;
+			background-color: #155699;
+			margin-left: 2%;
+			display: inline-block;
+			position: relative;
+			text-overflow: visible;
+			padding: 30px;
+			color: white;
+			text-indent: 20px;
+			vertical-align: 70px;
+			border-style: solid;
+			border-width:  3px;
+			border-color: #77A5D5;
+		}
+		
+		.schiz h1 {
+			font-size:50px;
+		}
+		
+		
+		div.title {
+			position: relative;
+			font-family: Gigi;
+			font-size: 80px;
+			color: #77a5d5;
+		}
+		
+		div.stats {
+			width: 25%;
+			height: auto;
+			background-color: #77A5D5;
+			margin-left: 2%;
+			margin-right: 2%;
+			display: inline-block;
+			font-size:20px;
+			text-overflow: visible;
+			padding: 10px;
+			color: #155699;
+			text-indent: 20px;
+			vertical-align: 130px;
+		}
+		
+		div.what {
+			width: 22%;
+			height: auto;
+			font-size: 20px;
+			background-color: white;
+			margin-left: 2%;
+			display: inline-block;
+			position: relative;
+			text-overflow: visible;
+			overflow-wrap: break-word;
+			padding: 10px;
+			color: #77a5d5;
+			text-indent: 20px;
+			vertical-align: 50px;
+			border-style: solid;
+			border-width:  3px;
+			border-color: #77A5D5;
+		}
+		
+		section.odd, div.diagnosis, div.misconceptions {
+			width: 29%;
+			height: 29%;
+			padding: 10px;
+			background-color: #77a5d5;
+			color: white;
+			vertical-align: top;
+			margin-left: 3%;
+			display: inline-block;
+			text-indent: 20px;
+			font-size: 19px;
+			text-align: justify;
+		}
+		
+		section.even, div.risks,div.coping {
+			width: 29%;
+			padding: 10px;
+			background-color: white;
+			color: #155699;
+			border-color:  #77a5d5;
+			border-style: solid;
+			border-width:  3px;
+			height: 29%;
+			margin-left: 3%;
+			display: inline-block;
+			padding: 12px;
+			text-indent: 20px;
+			vertical-align: top;
+			font-size: 20px;
+			text-align: justify;
+		}
+		
+		section h3 {
+			text-align: left;
+		}
+		
+		div.head2 {
+			text-align: justify;
+			width: 92%;
+			color: #155699;
+			background-color: #77A5D5;
+			padding: 10px;
+			margin-left:3% ;
+			position: relative;
+			top: 0;
+			border-style: solid;
+			border-width: 3px;
+			border-color: #155699;
+		}
+		
+		.head2 h2 {
+			text-align: left;
+		}
+		
+		div.treatment {
+			width: 59%;
+			padding: 10px;
+			background-color: #77a5d5;
+			color: #155699;
+			border-color:  #77a5d5;
+			border-style: solid;
+			border-width:  3px;
+			height: 29%;
+			margin-left: 2%;
+			display: inline-block;
+			padding: 12px;
+			text-indent: 20px;
+			vertical-align: top;
+			font-size: 20px;
+			text-align: justify;
+		}
+		
+		.treatment h2{
+			color:white;
+		}
+		
+		div.mainpic{
+			width: 44%;
+			margin-left: 2%;
+			padding: 10px 10px 30px 10px;
+			background-color: #77a5d5;
+			box-shadow: 0 4px 8px 0 #155699;
+			margin-bottom: 25px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		
+		
+		div.pic {
+			width: 77%;
+			margin-left: 3%;
+			padding: 10px 10px 10px 10px;
+			background-color: white;
+			box-shadow: 0 4px 8px 0 #77A5D5;
+			margin-bottom: 25px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		
+		div.pic2{
+			width: 59%;
+			margin-left: 2%;
+			padding: 10px 10px 30px 10px;
+			background-color: #77a5d5;
+			box-shadow: 0 4px 8px 0 #155699;
+			margin-bottom: 25px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		
+		.pic3 {
+			width:59%;
+			margin-left: 2%;
+			padding: 10px 10px 30px 10px;
+			background-color: white;
+			box-shadow: 0 4px 8px 0 #155699;
+			margin-bottom: 25px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		
+		.head h1{
+			text-align: left;
+		}
+		
+		div.head{
+			text-align: justify;
+			width: 97%;
+			color: white;
+			background-color: #77A5D5;
+			padding: 25px;
+			font-size: 25px;
+			position: sticky;
+			top: 3%;
+			border-style: solid;
+			border-width: 3px;
+			border-color: #155699;
+			
+		}
+		
+		div.meds {
+			width: 29%;
+			height: auto;
+			background-color: white;
+			margin-left: 2%;
+			display: inline-block;
+			font-size:18px;
+			text-overflow: visible;
+			padding: 10px;
+			color: #155699;
+			text-indent: 20px;
+			vertical-align: 130px;
+			border-style: solid;
+			border-width: 3px;
+			border-color: #77a5d5;
+		}
+		
+		a:active {
+			color: #77a5d5;
+		}
+		
+		a:hover {
+			color: #155699;
+		}
+		
+		div.references {
+			width: 99.5%;
+			padding: 10px;
+			background-color: #77a5d5;
+			color: #155699;
+			position: relative;
+			vertical-align: top;
+			display: inline-block;
+			text-indent: 10px;
+			font-size: 15px;
+			text-align: justify;
+		}
+		
+		.button{
+			background-color: #77A5D5;
+			border: none;
+			width: 49.5%;
+			padding: 15px 32px;
+			text-align: center;
+			display: inline-block;
+			border-style: none;
+			position: relative;
+		}
+
+		.button h2{
+			color: #155699;
+			font-size: 22px;
+		}
+		
+		
+		.references{
+			text-indent: 20px;
+			text-decoration: none;
+			font-size: 16px;
+		}
+		
+		.references a{
+			text-decoration: none;
+		}
+		
+		.references a:visited{
+			color: #155699;
+		}
+		
+		.references a:link{
+			color: #155699;
+		}
+		
+		.references a:hover{
+			background-color: white;
+		}
+		

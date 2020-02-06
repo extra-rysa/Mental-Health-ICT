@@ -1,0 +1,272 @@
+		* {
+			box-sizing: border-box;
+		}
+		
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		header {
+			background-color: #77A5D5;
+			padding: 10px;
+			padding-bottom: 5px;
+			font-size: 40px;
+			color: white;
+			height: auto;
+			text-align: center;
+			overflow: visible;
+		}
+		
+		.logo{
+			float: left;
+			margin-left: 20%;
+			margin-right: -25%;
+			margin-top: 2%;
+		}
+
+		nav {
+			width: 100%;
+			margin: 0 px;
+			background: #77A5D5;
+			padding: 0px;
+			font-size: 18px;
+			display: inline-block;
+			text-align: center;
+			margin-top: -30px;
+		}
+
+		nav > ul {
+			list-style-type: none;
+			margin-top: -50px;
+			padding: 0;
+			overflow: hidden;
+			display: inline-block;
+			text-align: center;
+		}
+
+		nav > ul > li {
+			float: left;
+			border-right: 1px solid #155699;
+		}
+		
+		nav > ul > li:last-child {
+			border-right: none;
+		}
+		
+		nav > ul > li > a {
+			display: block;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			text-decoration: none;
+		}
+		
+		.dropdown:hover > ul{
+			display: inline-block;
+			position: absolute;
+		}
+
+		.dropdown > ul > li{
+			list-style-type: none;
+			background-color: #F3EFF0;
+			padding: 10px;
+		}
+		
+		.dropdown ul {
+			margin-left: -20px;
+			margin-top: 5px;
+			display: none;
+			position: absolute;
+		}
+		
+		.dropdown a {
+			text-decoration: none;
+			float: none;
+		}
+		
+		nav a:visited {
+			color: #155699;
+		}
+		
+		nav a:link {
+			color: #155699;
+		}
+		
+		nav a:hover {
+			background: white;
+		}
+		
+		@media (max-width: 1200px) {
+			nav{
+				width: 100%;
+			}
+			
+			.logo{
+				display: none;
+			}
+		}
+		
+		.button a{
+			text-decoration: none;
+		}
+		
+		.button a:visited{
+			color: #155699;
+		}
+		
+		.button a:link{
+			color: #155699;
+		}
+		
+		.button a:hover{
+			background-color: white;
+		}
+		
+		.button{
+			background-color: #77A5D5;
+			border: none;
+			width: 49.5%;
+			padding: 15px 32px;
+			text-align: center;
+			display: inline-block;
+			border-style: none;
+			position: relative;
+		}
+
+		.button h2{
+			color: #155699;
+			font-size: 22px;
+		}
+		
+		
+		/* start editing here */
+	
+		.graphic {
+			margin-top: -2%;
+			width: 100%;
+			height: 200px;
+			position: relative;
+			display: inline-block;
+			background-color: white;
+			position: relative;
+			display: inline-block;
+			z-index: -1;
+		}
+		
+		h3{
+			color: black;
+			font-size: 32px;
+			margin-bottom: -2%;
+			margin-left: 2%;
+			margin-top: -5px;
+			display: inline-block;
+		}
+		
+		h4{
+			color: #155699;
+			font-size: 28px;
+			margin-bottom: -2%;
+			margin-top: 0px;
+			text-indent: -20px;
+		}
+		
+		.odd{
+			width: 44%;
+			height: 50%;
+			background-color: white;
+			margin-left: 8%;
+			display: inline-block;
+			position: relative;
+			text-overflow: visible;
+			padding-left: 25px;
+			color: #155699;
+			text-indent: 20px;
+		}
+		
+		.picodd{
+			margin-left: 2%;
+			margin-right: 8%;
+			padding: 10px 10px 30px 10px;
+			background-color: white;
+			box-shadow: 0 4px 8px 0 #77A5D5;
+			margin-bottom: 25px;
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			width: 35%;
+		}
+		
+		.piceven{
+			margin-left: 12%;
+			padding: 10px 10px 30px 10px;
+			background-color: white;
+			box-shadow: 0 4px 8px 0 #77A5D5;
+			margin-bottom: 25px;
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			width: 35%;
+		}
+		
+		.even{
+			width: 44%;
+			height: 50%;
+			background-color: white;
+			margin-left: 2%;
+			margin-right: 4%;
+			display: inline-block;
+			position: relative;
+			text-overflow: visible;
+			padding: 20px;
+			color: #155699;
+			text-indent: 20px;
+			vertical-align: 50px;
+		}
+		
+		.even a:visited{
+			color: #155699;
+		}
+		
+		.even a:link{
+			color: #155699;
+		}
+		
+		.even a:hover{
+			background-color: white;
+		}
+		
+		.odd a:visited{
+			color: #155699;
+		}
+		
+		.odd a:link{
+			color: #155699;
+		}
+		
+		.odd a:hover{
+			background-color: white;
+		}
+		
+		
+		.sources{
+			text-indent: 20px;
+			text-decoration: none;
+			font-size: 16px;
+		}
+		
+		.sources a{
+			text-decoration: none;
+		}
+		
+		.sources a:visited{
+			color: #155699;
+		}
+		
+		.sources a:link{
+			color: #155699;
+		}
+		
+		.sources a:hover{
+			background-color: white;
+		}
+		

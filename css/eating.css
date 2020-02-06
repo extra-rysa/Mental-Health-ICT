@@ -1,0 +1,390 @@
+		* {
+			box-sizing: border-box;
+		}
+		
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		header {
+			background-color: #77A5D5;
+			padding: 10px;
+			padding-bottom: 5px;
+			font-size: 40px;
+			color: white;
+			height: auto;
+			text-align: center;
+			overflow: visible;
+		}
+		
+		.logo{
+			float: left;
+			margin-left: 20%;
+			margin-right: -25%;
+			margin-top: 2%;
+		}
+
+		nav {
+			width: 100%;
+			margin: 0 px;
+			background: #77A5D5;
+			padding: 0px;
+			font-size: 18px;
+			display: inline-block;
+			text-align: center;
+			margin-top: -30px;
+		}
+
+		nav > ul {
+			list-style-type: none;
+			margin-top: -50px;
+			padding: 0;
+			overflow: hidden;
+			display: inline-block;
+			text-align: center;
+		}
+
+		nav > ul > li {
+			float: left;
+			border-right: 1px solid #155699;
+		}
+		
+		nav > ul > li:last-child {
+			border-right: none;
+		}
+		
+		nav > ul > li > a {
+			display: block;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			text-decoration: none;
+		}
+		
+		.dropdown:hover > ul{
+			display: inline-block;
+			position: absolute;
+		}
+
+		.dropdown > ul > li{
+			list-style-type: none;
+			background-color: #F3EFF0;
+			padding: 10px;
+		}
+		
+		.dropdown ul {
+			margin-left: -20px;
+			margin-top: 5px;
+			display: none;
+			position: absolute;
+		}
+		
+		.dropdown a {
+			text-decoration: none;
+			float: none;
+		}
+		
+		nav a:visited {
+			color: #155699;
+		}
+		
+		nav a:link {
+			color: #155699;
+		}
+		
+		nav a:hover {
+			background: white;
+		}
+		
+		@media (max-width: 1200px) {
+			nav{
+				width: 100%;
+			}
+			
+			.logo{
+				display: none;
+			}
+		}
+		
+		.button a{
+			text-decoration: none;
+		}
+		
+		.button a:visited{
+			color: #155699;
+		}
+		
+		.button a:link{
+			color: #155699;
+		}
+		
+		.button a:hover{
+			background-color: white;
+		}
+		
+		.button{
+			background-color: #77A5D5;
+			border: none;
+			width: 49.5%;
+			padding: 15px 32px;
+			text-align: center;
+			display: inline-block;
+			border-style: none;
+			position: relative;
+		}
+
+		.button h2{
+			color: #155699;
+			font-size: 22px;
+		}
+		
+		/* start editing here */
+				
+		div.graphic {
+			width: 90%;
+			position: relative;
+			display: inline-block;
+			background-color: white;
+			height: 330px;
+			display: inline-block;
+			z-index: -1;
+		}
+		
+		div.intro {
+			font-size: 18px;
+			width: 97%;
+			height: auto;
+			margin-left:1.5%;
+			color: white;
+			background-color: #77a5d5;
+			position: relative;
+			padding: 10px;
+			
+		}
+		
+		.intro p,.eating1 p, .eating2 p, .eating3 p{
+			text-indent: 5%;
+		}
+		.intro b{
+			color: #155699;
+		}
+		
+		div.eating1	{
+			width: 31%;
+			height: 20%;
+			margin-left: 1.5%;
+			background-color: white;
+			color: #155699;
+			display: inline-block;
+			border-width: 3px;
+			border-style: solid;
+			border-color: #77a5d5;
+			padding: 10px;
+			vertical-align: 70px;
+		}
+		
+		div.eating2 {
+			width: 31%;
+			margin-left: 1.5%;
+			padding: 10px;
+			height:100%;
+			display:inline-block;
+			vertical-align:35px;
+			background-color: #77a5d5;
+			color: white;
+		}
+		
+		div.eating3	{
+			width: 31%;
+			height: 20%;
+			margin-left: 1.5%;
+			background-color: white;
+			color: #155699;
+			display: inline-block;
+			border-width: 3px;
+			border-style: solid;
+			border-color: #77a5d5;
+			padding: 10px;
+		}
+		
+		.eating2 h3 {
+			color: #155699;
+		}
+		
+		div.symptoms {
+			padding: 20px 50px 50px 30px;
+			width: 95%;
+			margin-left:3%;
+			background-color: #77a5d5;
+			border-color: #155699;
+			border-width: 3px;
+			border-style: solid;
+		}
+		
+		div.sympAnorexia {
+			padding: 10px;
+			width: 31%;
+			height: auto;
+			margin-left:1.5%;
+			background-color: white;
+			color: #155699;
+			border-color: #155699;
+			border-width: 3px;
+			border-style: solid;
+			display: inline-block;
+		}
+		
+		div.sympBinge {
+			padding: 10px;
+			width: 31%;
+			height: auto;
+			margin-left:1.5%;
+			background-color: white;
+			color: #155699;
+			border-color: #155699;
+			border-width: 3px;
+			border-style: solid;
+			display: inline-block;
+			vertical-align: 98px;
+		}
+		
+		div.sympBulimia {
+			padding: 10px;
+			width: 31%;
+			height: auto;
+			margin-left:1.5%;
+			background-color: #77a5d5;
+			color: white;
+			border-color: white;
+			border-width: 3px;
+			border-style: solid;
+			display: inline-block;	
+			vertical-align: 17px;			
+		}
+		
+		div.pic1 {
+			width: 77%;
+			margin-left: 3%;
+			padding: 10px 10px 10px 10px;
+			background-color: white;
+			box-shadow: 0 4px 8px 0 #77A5D5;
+			margin-bottom: 25px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		
+		div.pic2 {
+			width: 44%;
+			height: auto;
+			background-color: white;
+			border-color: #77A5D5;
+			border-width: 3px;
+			border-style: solid;
+			margin-left:3%;
+			display: inline-block;
+			position: relative;
+			padding: 20px;
+			vertical-align: 40px;
+		}
+		
+		div.pic3 {
+			width: 44%;
+			height: auto;
+			background-color: white;
+			border-color: #77A5D5;
+			border-width: 3px;
+			border-style: solid;
+			margin-left:3%;
+			display: inline-block;
+			position: relative;
+			padding: 20px;
+			vertical-align: 40px;
+		}
+		
+		div.HealthAnorex {
+			width: 44%;
+			height: auto;
+			background-color: #77A5D5;
+			margin-left:3%;
+			display: inline-block;
+			position: relative;
+			text-overflow: visible;
+			padding: 20px;
+			color: white;
+			text-indent: 20px;
+			vertical-align: 50px;
+		}
+		
+		div.HealthBulim {
+			width: 44%;
+			height: auto;
+			background-color: #77A5D5;
+			margin-left:3%;
+			display: inline-block;
+			position: relative;
+			text-overflow: visible;
+			padding: 20px;
+			color: #155699;
+			text-indent: 20px;
+			vertical-align: 50px;
+		}
+		
+		p.quote {
+			width: 80%;
+			margin-left: 10%;
+			text-align: justify;
+		}
+		
+		div.references {
+			width: 99.5%;
+			padding: 10px;
+			background-color: #77a5d5;
+			color: #155699;
+			position: relative;
+			vertical-align: top;
+			display: inline-block;
+			text-indent: 10px;
+			font-size: 15px;
+			text-align: justify;
+		}
+		
+		.button{
+			background-color: #77A5D5;
+			border: none;
+			width: 49.5%;
+			padding: 15px 32px;
+			text-align: center;
+			display: inline-block;
+			border-style: none;
+			position: relative;
+		}
+
+		.button h2{
+			color: #155699;
+			font-size: 22px;
+		}
+		
+		.references{
+			text-indent: 20px;
+			text-decoration: none;
+			font-size: 16px;
+		}
+		
+		.references a{
+			text-decoration: none;
+		}
+		
+		.references a:visited{
+			color: #155699;
+		}
+		
+		.references a:link{
+			color: #155699;
+		}
+		
+		.references a:hover{
+			background-color: white;
+		}
+		
+		
+		

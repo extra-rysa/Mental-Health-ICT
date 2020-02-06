@@ -1,0 +1,293 @@
+		* {
+			box-sizing: border-box;
+		}
+		
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		header {
+			background-color: #77A5D5;
+			padding: 10px;
+			padding-bottom: 5px;
+			font-size: 40px;
+			color: white;
+			height: auto;
+			text-align: center;
+			overflow: visible;
+		}
+		
+		.logo{
+			float: left;
+			margin-left: 20%;
+			margin-right: -25%;
+			margin-top: 2%;
+		}
+
+		nav {
+			width: 100%;
+			margin: 0 px;
+			background: #77A5D5;
+			padding: 0px;
+			font-size: 18px;
+			display: inline-block;
+			text-align: center;
+			margin-top: -30px;
+		}
+
+		nav > ul {
+			list-style-type: none;
+			margin-top: -50px;
+			padding: 0;
+			overflow: hidden;
+			display: inline-block;
+			text-align: center;
+		}
+
+		nav > ul > li {
+			float: left;
+			border-right: 1px solid #155699;
+		}
+		
+		nav > ul > li:last-child {
+			border-right: none;
+		}
+		
+		nav > ul > li > a {
+			display: block;
+			padding-left: 50px;
+			padding-right: 50px;
+			text-align: center;
+			text-decoration: none;
+		}
+		
+		.dropdown:hover > ul{
+			display: inline-block;
+			position: absolute;
+		}
+
+		.dropdown > ul > li{
+			list-style-type: none;
+			background-color: #F3EFF0;
+			padding: 10px;
+		}
+		
+		.dropdown ul {
+			margin-left: -20px;
+			margin-top: 5px;
+			display: none;
+			position: absolute;
+		}
+		
+		.dropdown a {
+			text-decoration: none;
+			float: none;
+		}
+		
+		nav a:visited {
+			color: #155699;
+		}
+		
+		nav a:link {
+			color: #155699;
+		}
+		
+		nav a:hover {
+			background: white;
+		}
+		
+		@media (max-width: 1200px) {
+			nav{
+				width: 100%;
+			}
+			
+			.logo{
+				display: none;
+			}
+		}
+		
+		.button a{
+			text-decoration: none;
+		}
+		
+		.button a:visited{
+			color: #155699;
+		}
+		
+		.button a:link{
+			color: #155699;
+		}
+		
+		.button a:hover{
+			background-color: white;
+		}
+		
+		.button{
+			background-color: #77A5D5;
+			border: none;
+			width: 49.5%;
+			padding: 15px 32px;
+			text-align: center;
+			display: inline-block;
+			border-style: none;
+			position: relative;
+		}
+
+		.button > h2 > a{
+			color: #155699;
+			font-size: 22px;
+		}
+		
+	/* start editing here */
+	
+		.graphic {
+			width: 90%;
+			height: 200px;
+			position: relative;
+			display: inline-block;
+			background-color: white;
+			height: 330px;
+			position: relative;
+			display: inline-block;
+		}
+		
+		.whattext{
+			width: 44%;
+			height: auto;
+			background-color: #77A5D5;
+			margin-left: 11%;
+			display: inline-block;
+			position: relative;
+			text-overflow: visible;
+			padding: 20px;
+			color: #155699;
+			text-indent: 20px;
+			vertical-align: top;
+		}
+		
+		.whatpic{
+			margin-left: 2%;
+			margin-right: 8%;
+			width: 30%;
+			padding: 10px 10px 20px 10px;
+			background-color: white;
+			box-shadow: 0 4px 8px 0 #77A5D5;
+			margin-bottom: 25px;
+			position: relative;
+			display: inline-block;
+		}
+		
+		.whytext{
+			width: 44%;
+			height: auto;
+			background-color: #77A5D5;
+			margin-left: 2%;
+			margin-right: 8%;
+			display: inline-block;
+			position: relative;
+			text-overflow: visible;
+			padding: 20px;
+			color: #155699;
+			text-indent: 20px;
+			vertical-align: top;
+		}
+		
+		.whypic{
+			margin-left: 8%;
+			width: 35%;
+			padding: 10px 10px 20px 10px;
+			background-color: white;
+			box-shadow: 0 4px 8px 0 #77A5D5;
+			margin-bottom: 25px;
+			position: relative;
+			display: inline-block;
+		}
+		
+		.text h3{
+			color: #155699;
+			font-size: 25px;
+			margin-left: 12px;
+			margin-bottom: -20px;
+		}
+		
+		.header > h2{
+			margin-left: 2%;
+			margin-bottom: 1%;
+			font-size: 32px;
+		}
+		
+		.header p {
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: -1%;
+			text-indent: 20px;
+		}
+		
+		.newpage {
+			background-color: #77A5D5;
+			border: none;
+			margin-left: 2%;
+			margin-right: 2%;
+			width: 20%;
+			padding: 15px 32px;
+			text-align: center;
+			display: inline-block;
+			border-style: none;
+			position: relative;
+			font-size: 18px;
+			text-overflow: visible;
+			color: #155699;
+			transition: transform .8s;
+		}
+		
+		.newpage:hover {
+			transform: scale(1.1);
+		}
+		
+		.newpage a{
+			text-decoration: none;
+		}
+		
+		
+		.newpage a:visited {
+			color: #155699;
+		}
+		
+		.newpage a:link {
+			color: #155699;
+		}
+		
+		.newpage a:hover {
+			background: white;
+		}
+		
+		.sources{
+			text-indent: 20px;
+			text-decoration: none;
+			font-size: 16px;
+			margin-top: -2%;
+		}
+		
+		.sources a{
+			text-decoration: none;
+		}
+		
+		.sources a:visited{
+			color: #155699;
+		}
+		
+		.sources a:link{
+			color: #155699;
+		}
+		
+		.sources a:hover{
+			background-color: white;
+		}
+		
+		.references h3{
+			color: black;
+			font-size: 32px;
+			margin-left: 2%;
+			display: inline-block;
+		}
+		
