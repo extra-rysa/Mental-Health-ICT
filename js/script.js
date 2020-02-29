@@ -4,3 +4,7 @@ var cancel = function(){
 		location.reload();
 	}
 }
+
+var showMessage = function(){
+	alert("Hi there! We hope you enjoy our website and that you're having a great day today! :D <3");
+}
